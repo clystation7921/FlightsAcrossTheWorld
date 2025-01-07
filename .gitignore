@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Logs
+*.log
+logs/
+*.gz
+
+# Build output
+dist/
+build/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Git specific files
+.git/
+*.lock
+*.bak
+*.pid
+
+# Images optimized/generated during build
+*.orig.jpg
+*.orig.png
+
+# Coverage reports
+coverage/
+
+# Misc
+*.sqlite
+*.sql
+*.iml
+
+# Debug tool files
+debug.log

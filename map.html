@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A basic HTML template">
-  <title>Flights Across the World</title>
+  <meta name="description" content="Map">
+  <title>Map</title>
   <!-- Link to external CSS -->
   <link rel="stylesheet" href="./src/output.css">
   <!-- Favicon -->
@@ -13,13 +13,13 @@
 <body class="bg-zinc-900">
   <!-- Header Section -->
   <header>
-    <nav id="nav" class="p-10 flex xl:w-[1280px] justify-between">
+    <nav class="p-10">
       <div id="logo">
         <h1 href="/index.html" class="text-3xl font-bold text-white w-5xl">
           Around the world logo
         </h1>
       </div>
-      <div id="nav-links" class="flex flex-row">
+      <div id="nav-links" class="flex gap-14">
         <ul class="flex flex-row text-xl text-white border-b-2 border-solid border-slate-200 bg-zinc-900">
           <li><a href="#map">Map</a></li>
           <li><a href="#flight-log">Flight Log</a></li>
@@ -32,8 +32,9 @@
   <!-- Main Content Section -->
   <main>
     <section id="overview" class="h-[720px] flex-col p-10 justify-center items-center">
-      <h2 class="text-white text-3xl leading-[48px]">Overview</h2>
-      <p class="text-white px-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut nunc viverra, tincidunt diam faucibus, dignissim dolor. Maecenas maximus lectus laoreet felis euismod, id consectetur tellus pretium. Pellentesque vel dolor in diam sagittis condimentum sed ac metus. Praesent consequat quam quis sapien blandit hendrerit. Proin urna lacus, mollis a pulvinar sed, vulputate ac magna. Nullam id mauris non ante iaculis vestibulum malesuada vel diam. Suspendisse dignissim nisl nec purus cursus interdum. Pellentesque volutpat sed odio eu sagittis. Aliquam porta sagittis erat mollis interdum.</p>
+      <h2 class="text-white text-3xl leading-[48px]">Map</h2>
+      <p class="text-white px-10">Lorem ipsum dolor sit amet, </p>
+      <iframe width="1280" height="720" src="https://www.openstreetmap.org/export/embed.html?bbox=-75.89698791503906%2C35.90740546813475%2C-75.41564941406251%2C36.13676564043458&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=12/36.0222/-75.6563">View Larger Map</a></small>
     </section>
 
     <section id="map" class="text-white p-10">
